@@ -6,3 +6,28 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  /* shared styles */
+
+  .display-flex {
+    display: flex;
+  }
+
+  
+.navbar {
+    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.text-color:visited, .text-color{
+    color: #424242;
+    text-decoration-color: #424242;
+  }
