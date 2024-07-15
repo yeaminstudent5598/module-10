@@ -12,6 +12,12 @@
   .display-flex {
     display: flex;
   }
+  /* shared styles*/
+
+.text-primary {
+    color: #FF900E;
+}
+
   /* text gray 02 */
   .text-gray {
     color: #424242;
@@ -67,6 +73,38 @@
 }
 .banner-image {
     max-width: 100%;
+}
+
+/* main section styles */
+main {
+    max-width: 1440px;
+}
+main > section {
+    margin-top: 130px;
+}
+
+
+
+/* teams and features related styles */
+
+.teams {
+    align-items: center;
+}
+.team-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features {
+    margin-left: 130px;
+    max-width: 530px;
+}
+.freature-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+#quick-list {
+    font-weight: 500;
 }
 /* responsive media quary */
 @media screen and (max-width: 576px){
